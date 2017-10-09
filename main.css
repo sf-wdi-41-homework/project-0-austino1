@@ -1,4 +1,4 @@
-.track {
+#track {
   background: grey;
   margin: 30px 40px;
   border: 3px solid black;
@@ -7,7 +7,7 @@
   background-size: contain;
 }
 
-div#player1.lane {
+.player {
   background-color: rgb(48, 104, 177);
   border-radius: 50px;
   font-size: 45px;
@@ -19,7 +19,7 @@ div#player1.lane {
   position: relative;
 }
 
-div#player2.lane {
+.player2 {
   background-color: rgb(224, 45, 68);
   border-radius: 50px;
   font-size: 45px;
@@ -56,4 +56,12 @@ body {
   position: relative;
   max-width: 1600px;
   font-family: 'VT323', monospace;
+}
+
+.btn-reset .btn-reset:focus {
+  position: absolute;
+  left: 0;
+  margin: 30px auto;
+  right: 0;
+  width: 130px;
 }
