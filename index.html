@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Extreme Racing</title>
-	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 	<link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
-	
-	<script src="http://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
-	
+
+	<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
 	<script type="text/javascript" src="app.js"></script>
 
 
 </head>
+
 <body>
-	<header>Extreme Racing!</header>
+	<header class="container">
+		<img class="game" src="images/game1.png" style="width:100px;height:140px;"> Extreme Racing! <img class="game" src="images/game2.png" style="width:100px;height:140px;">
+	</header>
 	<div class="track">
 		<div class="lane" id="player1" data-key="z"><img src="images/racecar1.png" alt="Car1" style="width:75px;height:75px;"></div>
 		<div class="lane" id="player2" data-key="m"><img src="images/racecar2.png" alt="Car2" style="width:75px;height:75px;"></div>
 	</div>
 
 
-
-	<footer>Blue = Z  ***  Red = M</footer>
+	<footer class="container">
+		<font color="blue">Blue=Z</font> vs
+		<font color="red">Red=M</font>
+	</footer>
 
 </body>
+
 </html>

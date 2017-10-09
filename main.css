@@ -1,51 +1,59 @@
-
 .track {
-	background: grey;
-	font-size: 55px;
-	margin: 20px;
-	border: 3px solid black;
+  background: grey;
+  margin: 30px 40px;
+  border: 3px solid black;
+  max-width: 1500px;
+  background: url("images/roadbackground.jpg");
+  background-size: contain;
 }
 
-
 div#player1.lane {
-	background-color: rgb(48, 104, 177);
-  	border-radius: 50px;
-  	font-size: 45px;
-  	height: 80px;
- 	margin: 10px 0;
- 	padding: 5px 0;
-  	text-align: center;
-  	width: 80px;
-  	position: relative;
+  background-color: rgb(48, 104, 177);
+  border-radius: 50px;
+  font-size: 45px;
+  height: 80px;
+  margin: 10px 0;
+  padding: 5px 0;
+  text-align: center;
+  width: 80px;
+  position: relative;
 }
 
 div#player2.lane {
-	background-color: rgb(224, 45, 68);
-  	border-radius: 50px;
-  	font-size: 45px;
-  	height: 80px;
- 	margin: 10px 0;
- 	padding: 5px 0;
-  	text-align: center;
-  	width: 80px;
-  	position: relative;
+  background-color: rgb(224, 45, 68);
+  border-radius: 50px;
+  font-size: 45px;
+  height: 80px;
+  margin: 10px 0;
+  padding: 5px 0;
+  text-align: center;
+  width: 80px;
+  position: relative;
 }
 
 header {
-	text-align: center;
-	font-size: 80px;
-	font-color: grey;
+  text-align: center;
+  font-size: 95px;
+  color: blue;
+  background: grey;
+  margin: 0 300px;
+  max-width: 900px;
+  border: 10px dashed black;
 }
 
 footer {
-	height: 400px;
-	text-align: center;
-	font-size: 70px;
-	font-color: grey;
+  text-align: center;
+  font-size: 70px;
+  color: black;
+  background: grey;
+  margin: 0 300px;
+  max-width: 650px;
+  border: 10px dashed black;
 }
 
 body {
-	background: url("images/check.jpg");
-	background-size: 1500px 1000px;
-	background-repeat: no-repeat;
+  background: url("images/check.jpg");
+  position: relative;
+  max-width: 1600px;
+  font-family: 'VT323', monospace;
 }
